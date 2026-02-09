@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Website - About</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/app.css')}}">
+    </head>
+    <body>
+        <h1>Daniel Coore</h1>
+        <p>I am a Computer Science student at the University of the West Indies with an interest in web development and problem-solving. I enjoy learning how to build applications and improve my technical skills through practical projects.
+
+        </p>
+        <img src="{{ url_for('static', filename='image.jpg') }}" alt="My Image" width="300">
+
+    </body>
+</html>
